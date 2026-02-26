@@ -1,0 +1,13 @@
+﻿[]
+Coordinates=184,1,91,36
+
+[edtEscrever]
+Coordinates=162,10,83,58
+Visible=True
+
+[btnEnviar]
+Coordinates=83,10,69,58
+
+[lblTexto]
+Coordinates=10,10,63,58
+
