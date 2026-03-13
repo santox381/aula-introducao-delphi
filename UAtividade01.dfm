@@ -3,36 +3,36 @@ object frmAtividade01: TfrmAtividade01
   Top = 0
   Caption = 'Atividade 1'
   ClientHeight = 441
-  ClientWidth = 805
+  ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -32
+  Font.Height = -21
   Font.Name = 'Segoe UI'
   Font.Style = []
   Position = poDesktopCenter
-  TextHeight = 45
+  TextHeight = 30
   object lblTexto: TLabel
-    Left = 0
-    Top = 0
-    Width = 809
-    Height = 45
-    Caption = 'Sua mensagem aqui'
+    Left = 8
+    Top = 8
+    Width = 142
+    Height = 30
+    Caption = 'Texto digitado: '
   end
-  object btnEnviar: TButton
-    Left = 536
-    Top = 392
-    Width = 281
-    Height = 49
-    Caption = 'Enviar Mensagem'
+  object btnTexto: TButton
+    Left = 423
+    Top = 395
+    Width = 193
+    Height = 38
+    Caption = 'Adicionar Texto'
     TabOrder = 0
-    OnClick = btnEnviarClick
+    OnClick = btnTextoClick
   end
-  object edtEscrever: TEdit
-    Left = 0
-    Top = 392
-    Width = 530
-    Height = 49
+  object edtTexto: TEdit
+    Left = 8
+    Top = 395
+    Width = 409
+    Height = 38
     TabOrder = 1
   end
 end

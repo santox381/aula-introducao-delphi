@@ -1,2 +1,2 @@
-# aula-introducao-delphi
-Aula basica
+# Aula-Introducao-Delphi
+Aula básica de Delphi

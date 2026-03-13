@@ -3,7 +3,7 @@ object frmExemplo01: TfrmExemplo01
   Top = 0
   Caption = 'Exemplo 01'
   ClientHeight = 202
-  ClientWidth = 374
+  ClientWidth = 232
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,21 +13,21 @@ object frmExemplo01: TfrmExemplo01
   Position = poDesktopCenter
   TextHeight = 30
   object lblMensagem: TLabel
-    Left = 77
-    Top = 24
+    Left = 21
+    Top = 16
     Width = 194
     Height = 30
     Caption = 'Sua mensagem aqui!'
   end
   object edtMensagem: TEdit
-    Left = 71
-    Top = 76
+    Left = 8
+    Top = 68
     Width = 216
     Height = 38
     TabOrder = 0
   end
   object btnMensagem: TButton
-    Left = 71
+    Left = 8
     Top = 136
     Width = 216
     Height = 49

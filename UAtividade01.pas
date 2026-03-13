@@ -8,10 +8,10 @@ uses
 
 type
   TfrmAtividade01 = class(TForm)
-    btnEnviar: TButton;
-    edtEscrever: TEdit;
+    btnTexto: TButton;
+    edtTexto: TEdit;
     lblTexto: TLabel;
-    procedure btnEnviarClick(Sender: TObject);
+    procedure btnTextoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,14 +25,11 @@ implementation
 
 {$R *.dfm}
 
-
-
-procedure TfrmAtividade01.btnEnviarClick(Sender: TObject);
+procedure TfrmAtividade01.btnTextoClick(Sender: TObject);
 begin
-lblTexto.Caption  :=lblTexto.Caption + sLineBreak + edtEscrever.Text;
-edtEscrever.Text := '';
-edtEscrever.SetFocus;
-
+  lblTexto.Caption := lblTexto.Caption + sLineBreak + edtTexto.Text;
+  edtTexto.Text := '';
+  edtTexto.SetFocus;
 end;
 
 end.
