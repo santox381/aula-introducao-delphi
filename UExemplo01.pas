@@ -27,9 +27,9 @@ implementation
 
 procedure TfrmExemplo01.btnMensagemClick(Sender: TObject);
 begin
-lblmensagem.Caption  := edtMensagem.Text;
-edtMensagem.Text := '';
-edtMensagem.SetFocus;
+  lblMensagem.Caption := edtMensagem.Text;
+  edtMensagem.Text := '';
+  edtMensagem.SetFocus;
 end;
 
 end.
