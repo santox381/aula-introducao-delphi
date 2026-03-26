@@ -136,6 +136,15 @@
         </DCCReference>
         <DCCReference Include="UAtividade01.pas">
             <Form>frmAtividade01</Form>
+        </DCCReference>
+        <DCCReference Include="UExemplo02.pas">
+            <Form>frmExemplo02</Form>
+        </DCCReference>
+        <DCCReference Include="UAtividade02.pas">
+            <Form>frmAtividade02</Form>
+        </DCCReference>
+        <DCCReference Include="UAtividade26.pas">
+            <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UExemplo02.pas">
